@@ -42,3 +42,17 @@ In order to delete the pod
 ```bash
 kubectl delete pod testing-pod
 ```
+
+
+
+### Understanding the Yaml
+
+- `apiVersion:v1` - Specifies the Kubernetes API version being used.For basic Pod definitions, the version is v1.
+
+- `kind: Pod` - Defines the type of Kubernetes object. Here, it creates a Pod, the smallest deployable unit in Kubernetes.
+
+- `metadata`  - Contains identifying information about the Pod, like its name and labels.
+
+- `spec` - Defines the desired behavior or configuration of the Pod.
+
+- `containers` - list the containers which run inside the Pod
